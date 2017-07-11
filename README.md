@@ -35,3 +35,5 @@ Inserir novos pontos de interesse na base:
 Encontrar pontos de interesse próximos:
   * Acessar http://localhost:8080/xyinc/pois/prox utilizando de um método POST, Content-Type = application/json.
   * Informar o payload da requisição como no exemplo a seguir: <pre class="prettyprint">{"maxDistance":50,"coordX":72,"coordY":20}</pre>
+
+Para realizar os testes, foi utilizado o plugin Advanced REST Client do Chrome.
